@@ -1,7 +1,5 @@
 # Python Projects
 
-The repository includes but is not limited to:
-- **Utility Scripts**: Automate everyday tasks.
-- **Data Analysis Tools**: For data processing and visualization.
-- **Web Scrapers**: Extract data from websites.
-- **Work-Related Scripts**: Scripts i've created to help with work.
+The repository includes random scripts I've created for various purposes, works in progress and projects I've 
+completed from various online courses. 
+
