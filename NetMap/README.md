@@ -1,17 +1,32 @@
-# NetMap
+# 🔎 NetMap — Local Network Scanner
 
-A Python-based local network scanner using ARP and Nmap.
+NetMap is a Python-based tool that uses ARP and Nmap to discover devices on your local network. It identifies IP addresses, MAC addresses, hostnames, and open services — making it great for network diagnostics, recon, or teaching yourself how networks behave.
 
-## 🔍 Features
+---
 
-- ARP scan to discover active devices on LAN
-- MAC + IP address display
-- Nmap integration for:
-  - Hostname resolution
-  - Open port detection
-  - Service fingerprinting
+## 🚀 Features
+
+- Fast ARP scan to find live devices
+- Displays MAC & IP addresses
+- Uses Nmap to:
+  - Resolve hostnames
+  - Identify open ports
+  - Fingerprint running services
+- Clean, readable output for terminal use
+
+---
 
 ## 📦 Requirements
 
-```bash
-pip install scapy psutil python-nmap
+Install dependencies with pip, and ensure Nmap is installed and available in your system `PATH`.
+
+---
+
+## 📸 Screenshot
+
+> Sample scan from a `/24` LAN:
+
+![Sample Output](tool_output.png)
+
+---
+
