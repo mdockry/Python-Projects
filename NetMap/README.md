@@ -1,6 +1,6 @@
 # 🔎 NetMap — Local Network Scanner
 
-NetMap is a Python-based tool that uses ARP and Nmap to discover devices on your local network. It identifies IP addresses, MAC addresses, hostnames, and open services — making it great for network diagnostics, recon, or teaching yourself how networks behave.
+NetMap is a Python-based tool that uses ARP and Nmap to discover devices on your local network. It identifies IP addresses, MAC addresses, hostnames, and open services.
 
 ---
 
