@@ -1,4 +1,4 @@
-# 🐍 Python Projects Lab
+# 🐍 Python Projects
 
 This repo contains a collection of misc tools, scripts, and learning projects.
 
