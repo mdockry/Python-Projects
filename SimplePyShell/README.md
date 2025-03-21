@@ -3,8 +3,6 @@
 A lightweight, interactive shell implemented in Python. **SimplePyShell** supports **built-in commands**, external command execution, proper shell-like argument parsing using `shlex`, and error handling.
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)
-![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)
-![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-orange.svg)
 
 ## 🚀 Features
 
