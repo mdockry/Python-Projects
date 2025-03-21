@@ -26,7 +26,7 @@ Install dependencies with pip, and ensure Nmap is installed and available in you
 
 > Sample scan from a `/24` LAN:
 
-![Sample Output]('tool output.png')
+![Sample Output]('tool_output.png')
 
 ---
 
