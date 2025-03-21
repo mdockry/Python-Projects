@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# A Basic ARP Scanner with Nmap Enrichment
+# A Basic ARP Scanner with Nmap Fingerprinting
 
 from scapy.all import *
 import ipaddress
