@@ -16,20 +16,10 @@ NetMap is a Python-based tool that uses ARP and Nmap to discover devices on your
 
 ---
 
+
 ## 📦 Requirements
 
 Install dependencies with pip, and ensure Nmap is installed and available in your system `PATH`.
 
 ```bash
-pip install scapy psutil python-nmap```bash
-
----
-
-## 📸 Screenshot
-
-> Sample scan from a `/24` LAN:
-
-![Sample Output]('tool_output.png')
-
----
-
+pip install scapy psutil python-nmap
