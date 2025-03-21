@@ -40,11 +40,9 @@ def create_arp_packet(network):
         ip = received.psrc
         mac = received.hwsrc
 
-        # Initial Nmap scan for hostname
         nm.scan(ip, arguments='-sP')
         hostname = nm[ip].hostname() if ip in nm.all_hosts() else "N/A"
 
-        # Enrich with service/version scan
         nm.scan(ip, arguments='-sV --top-ports 10')
 
         # Output
