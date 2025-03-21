@@ -8,7 +8,6 @@ def main():
         command_dict = {}
         sys.stdout.write("$ ")
 
-        # Wait for user input
         command = input()
         split_command = shlex.split(command)
         command_list = ['echo', 'exit', 'type', 'pwd', 'cd']
@@ -45,7 +44,7 @@ def main():
                 sys.stdout.write("cd: Missing argument\n")
 
         elif split_command[0] == 'echo':
-            # Handle the "echo" command
+            
             echo_command = " ".join(split_command[1:])
             sys.stdout.write(f"{echo_command}\n")
 
