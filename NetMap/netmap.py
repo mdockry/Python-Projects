@@ -45,7 +45,6 @@ def create_arp_packet(network):
 
         nm.scan(ip, arguments='-sV --top-ports 10')
 
-        # Output
         print("=" * 50)
         print(f"[+] IP Address   : {ip}")
         print(f"[+] MAC Address  : {mac}")
